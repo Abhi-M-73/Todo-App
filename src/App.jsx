@@ -15,7 +15,7 @@ const App = () => {
   }, [allTodo]);
 
   return (
-    <div className="min-h-screen bg-gray-400 p-6">
+    <div className="min-h-screen bg-gray-100 p-6">
       <div className="max-w-2xl mx-auto bg-gray-800 shadow-md rounded-lg p-6">
         <h1 className="text-3xl text-white font-bold mb-4 text-center">Todo App</h1>
         <AddTodo allTodo={allTodo} setAllTodo={setAllTodo} />
