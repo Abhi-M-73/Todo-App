@@ -15,14 +15,14 @@ const AddTodo = ({ allTodo, setAllTodo }) => {
   };
 
   return (
-    <div className="flex items-center gap-0 mb-4 border rounded-lg">
+    <div className="flex items-center gap-0 mb-4 rounded-lg p-2 ">
       <input
         onChange={(e) => setTodo(e.target.value)}
         value={todo}
         autoFocus
         type="text"
         placeholder="Add a new todo..."
-        className="flex-1 text-white bg-gray-600 placeholder:text-gray-300 rounded-l-lg px-4 py-2 outline-none"
+        className="w-32 flex-1 text-white bg-gray-600 placeholder:text-gray-300 rounded-l-lg px-4 py-2 outline-none"
       />
       <button
         onClick={handleAddTodo}
